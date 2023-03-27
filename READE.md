@@ -1,4 +1,5 @@
-#First time using Bootstrap Demo
+#Bootstrap Demo
+This is my first time using Bootstrap. These are my notes and code as I am learing how this system works.
 
 ## Resources
 [Bootstrap CSS Framework Course](https://www.youtube.com/watch?v=-qfEOE4vtxE) from freeCodeCamp.org
@@ -6,7 +7,8 @@
 [Bootsrap v5.0 Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 [Column breaks and reordering](https://getbootstrap.com/docs/5.0/layout/columns/#column-breaks)
 [Gutters](https://getbootstrap.com/docs/5.0/layout/gutters/#how-they-work)
-
+[Buttons](https://getbootstrap.com/docs/5.0/components/buttons/)
+[Cards](https://getbootstrap.com/docs/5.0/components/card/)
 
 
 ## Notes
@@ -41,5 +43,6 @@
 - horizontal align ```justify-content-between ```
 - for breaking a columns to a new line must use ```class="w-100"```
 - gutters are a way of getting some padding on the rows but without changing the inward size of the row. There is padding and then a negative margin applied which is confusing. Gutter start at 1.5 rem by default or 24px.
-
-3/25 stopped at  on video
+- Buttons have many pre-defined classes. Not sure how good some of the options are for accessibility.
+- Cards have three ways to be contained to a specific width: use grid system with row and columns e.g.row/col-4, use card class and specific width e.g. card w-50% or set max-width with css styles e.g. style="max-width: 18rem"
+- Horizontal cards can be made by removing the grid gutters with .g-0 and using .col-md-* classes
