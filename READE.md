@@ -9,6 +9,7 @@ This is my first time using Bootstrap. These are my notes and code as I am leari
 [Gutters](https://getbootstrap.com/docs/5.0/layout/gutters/#how-they-work)
 [Buttons](https://getbootstrap.com/docs/5.0/components/buttons/)
 [Cards](https://getbootstrap.com/docs/5.0/components/card/)
+[Typography and Lists](https://getbootstrap.com/docs/5.0/content/typography/)
 
 
 ## Notes
@@ -46,3 +47,14 @@ This is my first time using Bootstrap. These are my notes and code as I am leari
 - Buttons have many pre-defined classes. Not sure how good some of the options are for accessibility.
 - Cards have three ways to be contained to a specific width: use grid system with row and columns e.g.row/col-4, use card class and specific width e.g. card w-50% or set max-width with css styles e.g. style="max-width: 18rem"
 - Horizontal cards can be made by removing the grid gutters with .g-0 and using .col-md-* classes
+- Typography in Bootstrap is automatically responsive. If you want to have the same style as heading without using the html div then you can just call it as a class e.g. don't want```<h1>``` then use it as a class, e.g. ```<p class="h1"> ```
+- There is also a display class that makes for larger font stylings that are opiniinated
+- Use -start and -end to align text. As opposed to -left and -right.
+- Inline semantic html tags available such as ``` <mark>, <small>, <s>, <del> ```. These stylings can also be applied as classe without the extra importance being given to them.
+- block quote options are really nice looking and include citations and block-footers, etc.
+- two types of list styles, ul and li but also inline 
+- There are lots of nice features to handle images. To keep an image contained inside of a div us the class="img-fluid" 
+- 
+
+
+
