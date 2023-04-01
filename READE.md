@@ -3,13 +3,27 @@ This is my first time using Bootstrap. These are my notes and code as I am leari
 
 ## Resources
 [Bootstrap CSS Framework Course](https://www.youtube.com/watch?v=-qfEOE4vtxE) from freeCodeCamp.org
+
 [Popper JS](https://popper.js.org/)
+
 [Bootsrap v5.0 Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
 [Column breaks and reordering](https://getbootstrap.com/docs/5.0/layout/columns/#column-breaks)
+
 [Gutters](https://getbootstrap.com/docs/5.0/layout/gutters/#how-they-work)
+
 [Buttons](https://getbootstrap.com/docs/5.0/components/buttons/)
+
 [Cards](https://getbootstrap.com/docs/5.0/components/card/)
+
 [Typography and Lists](https://getbootstrap.com/docs/5.0/content/typography/)
+
+[Utilities](https://getbootstrap.com/docs/5.0/utilities/api/) - holds nearly everthing needed to style and position elements
+
+[Utilities API](https://getbootstrap.com/docs/5.0/utilities/api/#using-the-api) - how to customize Bootstrap
+
+
+
 
 
 ## Notes
@@ -54,7 +68,13 @@ This is my first time using Bootstrap. These are my notes and code as I am leari
 - block quote options are really nice looking and include citations and block-footers, etc.
 - two types of list styles, ul and li but also inline 
 - There are lots of nice features to handle images. To keep an image contained inside of a div us the class="img-fluid" 
-- 
+- shorthand for spacing (margin, padding, gutter) is {property}{sides}-{size} or {property}{sides}-{breakpoint}-{size} e.g mt-5 is margin top size 5. Size is based off of $spacer that is a default setting. Size 5 is actually $spacer * 3 adn Size 1 is $spacer * .25. You can add more sizes by adding entries to the $spacers Sass map variable.
+- Using auto on spacers is helpful. Using mx-auto on a div with paragraphs will center the div.
+- There are several border classes, e.g. class="border border-1 border-dark" but just class="border" also give a border
+- To use flex just add d-flex class
+- Adding shadows around elements is easy e.g. shadow-lg
+- Everthing is customizable so if you have a set style you can change defaults on the classes. You can do this with the Utilites API. The theme colors you want are then put into a Sass map and looped over them to generate the utilities, component modifiers, and more. So text-light would be what ever you wanted light to be.
+
 
 
 
