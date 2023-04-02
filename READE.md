@@ -22,6 +22,12 @@ This is my first time using Bootstrap. These are my notes and code as I am leari
 
 [Utilities API](https://getbootstrap.com/docs/5.0/utilities/api/#using-the-api) - how to customize Bootstrap
 
+[Vertical Navigation](https://getbootstrap.com/docs/5.0/components/navs-tabs/#vertical) - need this for portfolio design!
+
+
+
+
+
 
 
 
@@ -74,6 +80,13 @@ This is my first time using Bootstrap. These are my notes and code as I am leari
 - To use flex just add d-flex class
 - Adding shadows around elements is easy e.g. shadow-lg
 - Everthing is customizable so if you have a set style you can change defaults on the classes. You can do this with the Utilites API. The theme colors you want are then put into a Sass map and looped over them to generate the utilities, component modifiers, and more. So text-light would be what ever you wanted light to be.
+- Bootstrap5 has improvements in tables including dark, hover, striping, colspan, etc.
+- The .nav class uses flexbox and will override some styles like padding for nav bars.
+- Use flex-column to make the navigation vertical and flex-{breakpoint}-column to make responsive.
+- Offcanvas navigation is new to Bootstrap5 and allows for hidden sigebars like navigation or shopping carts.
+- 
+
+
 
 
 
