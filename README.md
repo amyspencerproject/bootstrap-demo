@@ -47,7 +47,7 @@ This is my first time using Bootstrap. These are my notes and code as I am leari
 
 - You have to use Popper with Bootstrap. If you link(CDN install) to the bundled version of Bootstrap then Popper is included. You can opt for having that bundle speparated as well. If you do an NPM install you also have to included a separate Popper install.
 
-- You do not need to use a separet CSS normalize.css file with Bootstrap. The normalize/reset is included.
+- You do not need to use a separate CSS normalize.css file with Bootstrap. The normalize/reset is included.
 
 - Must have three elements to use grid system. 
     ```
